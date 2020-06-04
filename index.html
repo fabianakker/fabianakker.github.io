@@ -1,0 +1,191 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class ="nav-wrapper">
+        <div class="nav-wrapper-background" style="background-image:url(images/backdrop.jpg)">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Projects</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div>Fabian Akker</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+                <a href="project6.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio06.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                          <div class="logo-wrapper">
+                             <img src="images/logos/portfolio06.png">
+                         </div>
+
+                         <div class="subtitle">
+                            Blightbound is a 3 player class based dungeon crawler, published by Devolver. Release later 2020.
+                         </div>
+                        
+                            <div class="subtitle-role">
+                            Lead designer
+                            </div>
+
+                         </div>
+                     </div>
+                </a>
+                <a href="project5.html">
+                    <div class="portfolio-item-wrapper">
+                            <div class="portfolio-img-background" style="background-image:url(images/portfolio05.jpg)">
+                            </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio05.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Swords & Soldiers 2 is a sidescrolling RTS. Sequel to the award winning Swords & Soldiers. 
+                            </div>
+                            
+                            <div class="subtitle-role">
+                                Lead designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="project4.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio04.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio04.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Awesomenauts is a 2D sidescrolling MOBA for console and PC. The game won Best PC/Console Game, Best Visual Design Dutch Game Award and Control Industry Award in 2012.
+                            </div>
+                            
+                            <div class="subtitle-role">
+                                Lead designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="project3.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio03.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio03.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Swords & Soldiers is a sidescrolling RTS. Won Control Industry Award 2009, Innovative Design Dutch Game Award 2009, best game and best overall project EuroPrix 2009.
+                            </div>
+                            
+                            <div class="subtitle-role">
+                                Lead designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="project2.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio02.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio02.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Snowball earth is a cancelled project by Ronimo Games for Wii.
+                            </div>
+                            
+                            <div class="subtitle-role">
+                                Lead designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="project1.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio01.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio01.png">
+                            </div>
+
+                            <div class="subtitle">
+                                De Blob is a creative action game developed as student project at the HKU. The rights were later sold to THQ and the game was recreated for console and PC.
+                            </div>
+
+                            <div class="subtitle-role">
+                                Lead designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="project0.html">
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-background" style="background-image:url(images/portfolio00.jpg)">
+                        </div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="images/logos/portfolio00.png">
+                            </div>
+
+                            <div class="subtitle">
+                                Overlord is an action role-playing game developed by Triumph Studios. Released in 2006.
+                            </div>
+
+                            <div class="subtitle-role">
+                                Level designer
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[3].classList);
+            portfolioItem.childNodes[1].classList.add('img-darken');
+            portfolioItem.childNodes[3].classList.add('text-visible');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+            portfolioItem.childNodes[3].classList.remove('text-visible');
+        })
+
+    })
+
+</script>
+</html>
