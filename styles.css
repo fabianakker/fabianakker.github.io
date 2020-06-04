@@ -130,7 +130,7 @@ body {
 }
 
 .logo-wrapper img {
-    width: 100px
+    width: 100px;
 }
 
 
@@ -199,4 +199,12 @@ body {
 
 .videobutton-wrapper {
     width: 10%;
+}
+
+.img-wrapper-linkedin img{
+    width: 50px;
+}
+
+.wrapper-link {
+    color: greenyellow;
 }
