@@ -174,11 +174,6 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.two-column-about-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .profile-image-wrapper img{
     padding-left: 100px;
     padding-top: 100px;
@@ -188,27 +183,16 @@ body {
 .profile-content-wrapper {
     padding-top: 100px;
     padding-right: 150px;
-    padding-bottom: 3rem;
 }
 
 .profile-content-wrapper h1{
     color: lightgray;
 }
 
-.profile-content-about-wrapper {
-    padding-top: 100px;
-    padding-right: 150px;
-    padding-bottom: 3rem;
-}
-
-.profile-content-about-wrapper h1{
-    color: lightgray;
-}
-
 .video-wrapper {
     position: center;
-    padding-top: 100px;
-    padding-left: 2rem;  
+    padding-top: 100px;    
+    padding-left: 50px;
 }
 
 .videobutton-wrapper {
@@ -236,47 +220,4 @@ body {
 .space {
     margin-right: 0.6em;
     text-decoration: none;
-}
-
-
-@media (max-width: 800px) {
-    .two-column-about-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: left;
-        padding-left: 2rem;
-        
-    }
-    .profile-content-about-wrapper {
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-    }
-    .profile-image-wrapper img{
-        padding-left: 0;
-        padding-top: 8rem;
-        width: 200px;
-    }
-
-}
-
-
-@media (max-width: 1550px) {
-    .two-column-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: left;
-        padding-left: 2rem;
-        
-    }
-    .profile-content-wrapper {
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-    }
-    .video-wrapper {
-        position: center;
-        padding-top: 100px;
-        padding-left: 0;  
-    }
 }
