@@ -44,7 +44,7 @@ body {
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
+    font-size: 36px;
 }
 
 .nav-link-wrapper {
@@ -188,7 +188,7 @@ body {
 .profile-content-wrapper {
     padding-top: 100px;
     padding-right: 150px;
-    padding-bottom: 3rem;
+    padding-bottom: 100px;
 }
 
 .profile-content-wrapper h1{
@@ -198,7 +198,7 @@ body {
 .profile-content-about-wrapper {
     padding-top: 100px;
     padding-right: 150px;
-    padding-bottom: 3rem;
+    padding-bottom: 100px;
 }
 
 .profile-content-about-wrapper h1{
@@ -208,7 +208,7 @@ body {
 .video-wrapper {
     position: center;
     padding-top: 100px;
-    padding-left: 2rem;  
+    padding-left: 50px;  
 }
 
 .videobutton-wrapper {
@@ -234,12 +234,12 @@ body {
 }
 
 .space {
-    margin-right: 0.6em;
+    margin-right: 50px;
     text-decoration: none;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .two-column-about-wrapper {
         display: grid;
         grid-template-columns: 1fr;
